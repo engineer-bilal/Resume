@@ -8483,21 +8483,21 @@ h1, h2, h3, h4, h5,
           position: relative; }
           @media (min-width: 768px) {
             .owl-carousel.home-slider .slider-item .slider-text .one-forth {
-              position: absolute;
+              position: sticky;
               top: 0;
               left: 0;
               bottom: 0;
-              right: 0;
+              right: 94;
               width: 1200px;
               margin: 0 auto; } }
           @media (max-width: 991.98px) {
             .owl-carousel.home-slider .slider-item .slider-text .one-forth {
               width: 100%;
-              position: absolute;
+              position: sticky;
               top: 0;
               left: 0;
               right: 0;
-              bottom: 0;
+              bottom: 95;
               z-index: 1;
               padding: 1em; } }
           .owl-carousel.home-slider .slider-item .slider-text .one-forth .text {
